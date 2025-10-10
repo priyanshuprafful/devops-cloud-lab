@@ -1,21 +1,8 @@
-# from flask import Flask
-
-# app = Flask(__name__)
-
-# @app.route('/')
-# def hello():
-#     return "Learning Github Actions , AWS,DOCKER,EKS , making a simple project from scratch using perplexity ,."
-
-# if __name__ == '__main__':
-#     app.run(host='0.0.0.0', port=5000)
-
-# app.py
 from flask import Flask, render_template, request, redirect, session, url_for
 
 app = Flask(__name__)
-app.secret_key = 'yoursecretkey'  # Needed for session
+app.secret_key = 'yoursecretkey'  # Needed for session management
 
-# Sample products data
 PRODUCTS = [
     {'id': 1, 'name': 'Book', 'price': 250},
     {'id': 2, 'name': 'Pen', 'price': 30},

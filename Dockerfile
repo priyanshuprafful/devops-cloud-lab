@@ -8,11 +8,11 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy source code
+# Copy all app source code and templates
 COPY . .
 
 # Expose the Flask port
 EXPOSE 5000
 
-# Set the entry point
+# Run the Flask app
 CMD ["python", "app.py"]
