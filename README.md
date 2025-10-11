@@ -114,7 +114,7 @@ docker run -d -p 5000:5000 devops-cloud-lab
 ```
 
 ### Access the app
-Go to [http://localhost:5000](http://localhost:5000) (local) or [http://98.88.114.8](http://98.88.114.8) (cloud)
+Go to [http://localhost:5000](http://localhost:5000) (local) or [http://98.88.114.8](http://98.88.114.8) (cloud) (this is my elastic ip address , you have to create your own and attach it to the server )
 
 ***
 
@@ -170,7 +170,6 @@ Go to [http://localhost:5000](http://localhost:5000) (local) or [http://98.88.11
 
 ***
 
-**Paste this in your repo's `README.md`. Recruiters, interviewers, and teammates will get a crystal-clear view of your work and skills!**
-If you want more tips, markdown tweaks, or architecture image, just ask!
+
 
 [1](https://github.com/priyanshuprafful)
