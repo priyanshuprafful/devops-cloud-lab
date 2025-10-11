@@ -1,2 +1,4 @@
 # devops-cloud-lab
-perplexity vs code project 
+perplexity 
+devops tools project ( simple dummy e commerce store ) 
+IDE = VS CODE 
